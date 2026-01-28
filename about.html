@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Dog Scroll</title>
+    <meta name="description" content="Sometimes you just want to look at dogs">
+    <meta name="keywords" content="dogs, minimal, cute, project">
+    <meta property="og:title" content="Infinite Dog Scroll">
+    <meta property="og:description" content="Sometimes you just want to look at dogs">
+    <meta property="og:url" content="https://example.com">
+    <meta property="og:type" content="website">
+    <meta name="twitter:title" content="Infinite Dog Scroll">
+    <meta name="twitter:description" content="Sometimes you just want to look at dogs">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        main {
+            min-height: 100vh;
+        }
+
+        main div {
+            padding: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Infinite Dog Scroll</a>
+            <div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div>
+            <p>Sometimes you open social media and you see a cute picture or video of a dog. Nice! But not everything on social media is cute or good, and there are many distractions there separating you from your ultimate goal of enjoying as many animal pictures as possible! This project was born from the wish to see an endless scroll of
+                nice dog pictures and practice something with APIs. No other topics. No ads. Just cute dogs.</p>
+
+            <p>All pictures in the website come from the <a href="https://dog.ceo/dog-api/" target="_blank">dog API</a>. Make sure to give their website a look if you want to know anything about the API, the origin of the pictures, or their license/rights.
+                The website uses almost completely basic HTML, CSS and JavaScript, except for some bootstrap on the styling side.</p>
+
+            <p>The UI is designed with mobile use in mind, but you are also free to enjoy it on a computer. You can check the website's code at <a href="#" target="_blank">Github</a>. I did this on one day with some spare time so it is probably not that good though.</p>
+        </div>
+
+    </main>
+
+    <button onclick="topFunction()" id="backToTopBtn" title="Go to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
