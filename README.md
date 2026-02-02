@@ -12,9 +12,7 @@ This project delivers exactly what the title promises: an endless stream of ador
 
 ## Installation
 
-No installation required! Just open the website in your browser.
-
-If you want to run it locally:
+The website does not work within Github pages, so to use it you will have to download and then open it in a web browser.
 
 1. Clone the repository:
 
